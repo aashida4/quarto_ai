@@ -6,8 +6,8 @@ from game.game import QuartoGame
 from agent.dqn_agent import DQNAgent
 
 # --- Hyperparameters ---
-EPISODES = 5000
-BATCH_SIZE = 64
+EPISODES = 50000
+BATCH_SIZE = 128
 MEMORY_SIZE = 10000
 
 # --- Action Conversion ---
